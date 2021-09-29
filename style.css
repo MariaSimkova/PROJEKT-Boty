@@ -114,12 +114,16 @@ ul {
 }
 
 li {
-    display: inline-block;
-    flex-basis: 16%;
-    padding: 0;
+    list-style-type: none;
+    /* flex-basis: 10%; */
+    text-align: center;
+    margin: 0 10px;
+    padding: 5px;
 }
 
-/* .highlighted {
-    border: solid 1px #f15f42;
+.highlighted {
+    color: #f15f42;
+    font-weight: bold;
+    border: solid 1.5px #f15f42;
     border-radius: 50%;
-} */
+}
