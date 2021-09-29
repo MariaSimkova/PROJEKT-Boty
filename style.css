@@ -5,6 +5,7 @@ html { box-sizing: border-box; }
 body {
     text-rendering: optimizeLegibility;
     background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -38,11 +39,7 @@ body {
     padding-right: 0;
     background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
     position: relative;
-}
-
-.white {
-    padding: 30px;
-    flex-basis: 50%;
+    color: white;
 }
 
 .shoe {
@@ -51,14 +48,78 @@ body {
     bottom: 0;
 }
 
+.slogan {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .price {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .zaruka {
+    font-size: 12px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 30px;
+    bottom: 30px;
 }
+
+.white {
+    padding: 30px;
+    flex-basis: 50%;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-subtitle {
+    font-size: 13px;
+    color: #959595;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+.info {
+    padding-bottom: 30px;
+    border-bottom: solid 1px #06d7c1;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.size-box {
+    padding-top: 30px;
+}
+
+.size {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    flex-basis: 16%;
+    padding: 0;
+}
+
+/* .highlighted {
+    border: solid 1px #f15f42;
+    border-radius: 50%;
+} */
