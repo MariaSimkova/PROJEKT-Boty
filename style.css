@@ -30,16 +30,17 @@ body {
     width: 670px;
     height: 440px;
     box-shadow: 3px 3px 30px #bbbbbb;
-    border-radius: 2%;
+    border-radius: 3%;
 }
 
 .green {
-    flex-basis: 50%;
+    width: 335px;
     padding: 30px;
     padding-right: 0;
     background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
     position: relative;
     color: white;
+    border-radius: 3% 0 0 3%;
 }
 
 .shoe {
@@ -71,18 +72,21 @@ body {
 
 .white {
     padding: 30px;
-    flex-basis: 50%;
+    width: 335px;
+    position: relative;
 }
 
 .product-title {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .product-subtitle {
     font-size: 13px;
     color: #959595;
+    margin-top: 0;
 }
 
 .product-description {
@@ -90,12 +94,11 @@ body {
 }
 
 .info {
-    padding-bottom: 30px;
-    border-bottom: solid 1px #06d7c1;
+    border-bottom: solid 1.3px #06d7c1;
 }
 
 p {
-    margin-bottom: 0;
+    margin: 30px 0;
 }
 
 .size-box {
@@ -126,4 +129,22 @@ li {
     font-weight: bold;
     border: solid 1.5px #f15f42;
     border-radius: 50%;
+}
+
+.button {
+    background-color: #f15f42;
+    padding: 15px 30px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color: #e65b40;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
